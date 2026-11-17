@@ -4,7 +4,7 @@ Installers and release notes for **Mordalux Catalyst**, a Revit add-in by Mordal
 
 ## Download
 
-Get `MordaluxCatalyst_v1.0.0_Setup.msi` from the [latest release](https://github.com/mordaluxstudio/MordaluxCatalyst-Releases/releases/latest).
+Get `MordaluxCatalyst_v1.0.2_Setup.msi` from the [latest release](https://github.com/mordaluxstudio/MordaluxCatalyst-Releases/releases/latest).
 
 ## What it does
 
@@ -15,6 +15,8 @@ It adds a **Catalyst** tab to Revit:
 - **Export Sheets:** sheets and views to DWG or PDF, with page ordering.
 - **Standards Editor:** edits the rules, naming pattern and categories of a standard.
 - **Parameter Manager:** creates, cleans and fills parameters from an Excel list, in a project or a family. Every run starts with a preview and is one Undo step.
+- **Clash Detection:** tests clashes between models, kept per model, with Excel, CSV or HTML reports and an optional picture of each clash.
+- **Rebar Generator:** one window for two jobs. Beams, columns and footings get layered rebar sets; sloped or skewed concrete (for example a box underpass) gets rebar on its flat faces, which you tick by clicking them in a 3D preview. Hooks can go into the concrete, out of it, or flat along the face. Also Show rebar, Rebar in views and Rebar Settings (Revit 2024 or newer).
 - **AI assistant:** optional, off by default. It lets AI apps on your computer read the open model.
 
 English and Bahasa Indonesia, light and dark theme. F1 in Revit opens the offline guide.
@@ -30,7 +32,7 @@ To remove it, use Installed apps in Windows. If you used the old Revit Automatio
 ## Requirements
 
 - Revit 2021 to 2027, Windows x64.
-- PDF export of sheets needs Revit 2022 or newer. Parameter Manager needs Revit 2024 or newer.
+- PDF export of sheets needs Revit 2022 or newer. Parameter Manager and the Rebar Engine need Revit 2024 or newer.
 
 ## Privacy
 
